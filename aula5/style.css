@@ -1,0 +1,51 @@
+body{
+    
+    background-color: rgb(26, 26, 26);
+    padding:0px;
+    margin:0px;
+}
+#menu{
+    padding:0px;
+    margin:0px;
+    height:100vh;
+    display: flex;
+    align-items:center;
+    width:40%;
+    float:left;
+}
+#menu-items:hover > .menu-item{
+    opacity:0.2;
+    color:white;
+
+}
+#menu-items:hover > .menu-item:hover{
+    opacity:1;
+    color:white;
+}
+#info{
+    color:white;
+    float:right;
+    width:60%;
+    padding:0px;
+    margin:0px;
+    align-items:center;
+
+}
+.menu-item{
+    margin-left:20px;
+    color:white;
+    padding:50px 20px;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:block;
+    text-decoration: none;
+    transition: opacity 500ms ease;
+    
+}
+i{
+    padding:10px;
+}
+.text{
+    clear:both;
+    padding:20px 0px 20px 0px;
+}
