@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <script > 
+            
+        </script>
+        
+        
+        <script src="script.js" async defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="row g-4">
+                <div class="col-4">
+                    <div class="intro">
+                        <h1> A litle game</h1>
+                        <hr color="green" size="2">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="interface">
+                        <h3 id="color">My color is </h3>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h5 id="top">top:</h4>
+                    <h5 id="left">left:</h4>
+                </div>
+                <div class="col-4">
+                    <div class="buttonn">
+                        <button onclick="shuffles()">shuffle</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12" id="colss">
+                
+                    <div id="redCard"  style="z-index:1 ;color:red"  class="cards" onmouseover="position('redCard')"  onmouseout="limpa()" ></div>
+                    <div id="blueCard"  style="z-index:3; color:blue;" class="cards" onmouseover="position('blueCard')"  onmouseout="limpa()" ></div>
+                    <div id="greenCard"  style="z-index:4; color:green;" class="cards" onmouseover="position('greenCard')"  onmouseout="limpa()" ></div>
+                    <div id="violetCard"  style="z-index:2; color:violet;" class="cards" onmouseover="position('violetCard')"  onmouseout="limpa()" ></div>
+                    <div id="yellowCard"  style="z-index:5 ;color:yellow"  class="cards" onmouseover="position('yellowCard')"  onmouseout="limpa()" ></div>
+                    <div id="brownCard"  style="z-index:6; color:brown;" class="cards" onmouseover="position('brownCard')"  onmouseout="limpa()" ></div>
+                    <div id="grayCard"  style="z-index:7; color:gray;" class="cards" onmouseover="position('grayCard')"  onmouseout="limpa()" ></div>
+                    <div id="turquoiseCard"  style="z-index:8; color:turquoise;" class="cards" onmouseover="position('turquoiseCard')"  onmouseout="limpa()" ></div>
+                
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+        <script src="script.js"></script>
+        
+    </body>
+</html>

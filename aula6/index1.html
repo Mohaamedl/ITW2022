@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+      
+        <script> 
+            var x = 3;
+            var y = '2';
+            document.writeln("go "+x**2 * y**4);
+            var y = 3;
+            function multi(x,y){
+                var s=0;
+                for(var i =0;i<x;i++){
+                    s+=i+y;
+
+                }
+                return s;
+
+            }
+            if (multi(3,5)>10){
+                document.write("--------------------")
+            }
+            else{
+                document.write("......................")
+            }
+            window.onload =alert("oba isto dá: "+multi(3,5));
+
+
+        </script>
+    </body>
+</html>
